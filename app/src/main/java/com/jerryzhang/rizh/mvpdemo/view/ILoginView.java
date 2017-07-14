@@ -9,8 +9,8 @@ package com.jerryzhang.rizh.mvpdemo.view;
  */
 public interface ILoginView {
 
-    void getUserName();
-    void getPassword();
+    String getUserName();
+    String getPassword();
 
     //如果是涉及耗时操作，为了用户体验，可能需要Progressbar
     void showProgress();
